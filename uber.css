@@ -1,1 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
 
+body {
+    color: #111;
+    background: #fff;
+    line-height: 1.6;
+}
+
+/* HEADER */
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #000;
+    color: #fff;
+}
+
+.site-header .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.navigation a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.navigation .btn {
+    margin-left: 1.5rem;
+}
+
+/* BUTTONS */
+.btn {
+    padding: 0.6rem 1.4rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    transition: 0.3s ease;
+}
+
+.btn-primary {
+    background: #fff;
+    color: #000;
+}
+
+.btn-accent {
+    background: #1fb6ff;
+    color: #fff;
+}
+
+.btn:hover {
+    opacity: 0.85;
+}
+
+/* HERO SECTION */
+.hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: #111;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 2.8rem;
+    margin-bottom: 0.8rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+/* FEATURES */
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.6rem;
+    padding: 2rem;
+}
+
+.card {
+    background: #f9f9f9;
+    padding: 1.6rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    margin-bottom: 0.8rem;
+    font-size: 1.2rem;
+}
+
+/* FOOTER */
+.site-footer {
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    background: #111;
+    color: #fff;
+    margin-top: 2rem;
+}
